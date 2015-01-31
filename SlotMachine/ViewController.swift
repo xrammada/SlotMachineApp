@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var firstContainer: UIView!
+    var secondContainer: UIView!
+    var thirdContainer: UIView!
+    var fourthContainer: UIView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
