@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		669564461AC6F9D4001D9257 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
 		669564481AC6FB13001D9257 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
-		6695644A1AC88088001D9257 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
+		6695644A1AC88088001D9257 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlotBrain.swift; path = ../SlotBrain.swift; sourceTree = "<group>"; };
 		669DA4361A7D252600FC9600 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669DA43A1A7D252600FC9600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		669DA43B1A7D252600FC9600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +65,6 @@
 		669DA42D1A7D252600FC9600 = {
 			isa = PBXGroup;
 			children = (
-				6695644A1AC88088001D9257 /* SlotBrain.swift */,
 				669DA4381A7D252600FC9600 /* SlotMachine */,
 				669DA44E1A7D252600FC9600 /* SlotMachineTests */,
 				669DA4371A7D252600FC9600 /* Products */,
@@ -84,6 +83,7 @@
 		669DA4381A7D252600FC9600 /* SlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				6695644A1AC88088001D9257 /* SlotBrain.swift */,
 				669DA43B1A7D252600FC9600 /* AppDelegate.swift */,
 				669DA43D1A7D252600FC9600 /* ViewController.swift */,
 				669564481AC6FB13001D9257 /* Factory.swift */,
