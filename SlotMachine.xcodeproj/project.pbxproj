@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		669564471AC6F9D4001D9257 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669564461AC6F9D4001D9257 /* Slot.swift */; };
 		669564491AC6FB13001D9257 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669564481AC6FB13001D9257 /* Factory.swift */; };
+		6695644B1AC88088001D9257 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695644A1AC88088001D9257 /* SlotBrain.swift */; };
 		669DA43C1A7D252600FC9600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DA43B1A7D252600FC9600 /* AppDelegate.swift */; };
 		669DA43E1A7D252600FC9600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DA43D1A7D252600FC9600 /* ViewController.swift */; };
 		669DA4411A7D252600FC9600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669DA43F1A7D252600FC9600 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		669564461AC6F9D4001D9257 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
 		669564481AC6FB13001D9257 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		6695644A1AC88088001D9257 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 		669DA4361A7D252600FC9600 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669DA43A1A7D252600FC9600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		669DA43B1A7D252600FC9600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		669DA42D1A7D252600FC9600 = {
 			isa = PBXGroup;
 			children = (
+				6695644A1AC88088001D9257 /* SlotBrain.swift */,
 				669DA4381A7D252600FC9600 /* SlotMachine */,
 				669DA44E1A7D252600FC9600 /* SlotMachineTests */,
 				669DA4371A7D252600FC9600 /* Products */,
@@ -222,6 +225,7 @@
 				669DA43E1A7D252600FC9600 /* ViewController.swift in Sources */,
 				669564471AC6F9D4001D9257 /* Slot.swift in Sources */,
 				669DA43C1A7D252600FC9600 /* AppDelegate.swift in Sources */,
+				6695644B1AC88088001D9257 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
