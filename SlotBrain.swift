@@ -110,6 +110,7 @@ class SlotBrain {
         }
     }
     
+    
     class func checkThreeOfAKind (slotRow: [Slot]) -> Bool {
         let slot1 = slotRow[0]
         let slot2 = slotRow[1]
